@@ -1,0 +1,12 @@
+*{
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+body{background-image: url(istockphoto-1398473177-612x612.jpg);
+
+}
+h1{
+    text-align: center;
+    text-shadow: 20px;
+}

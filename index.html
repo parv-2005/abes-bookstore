@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BOOKSTORE</title>
+    <style>
+
+        body {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .top-frame {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #eb3838;
+            padding: 10px;
+            height: 80px;
+        }
+        .logo img {
+            height: 70px;
+            width: 200px;
+
+        }
+        .college-name h1 {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+        .nav-links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: rgb(237, 225, 225);
+            font-weight: bold;
+        }
+        .main-frame {
+            display: flex;
+            height: calc(100vh - 80px);
+        }
+        .left-frame {
+            width: 20%;
+            background-color: #f8f9f9;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+        }
+        .left-frame ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .left-frame ul li {
+            margin: 15px 0;
+        }
+        .left-frame ul li a {
+            text-decoration: none;
+            color: #0b0b0c;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .right-frame {
+            width: 80%;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-frame">
+        <div class="logo">
+            <img src="logo-9.png" alt="Logo" width="50">
+        </div>
+        <div class="college-name">
+            <h1></h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+            <a href="registration.html">REGISTRATION</a>
+            <a href="catalogue.html">CATALOGUE</a>
+            <a href="cart.html">CART</a>
+        </div>
+    </div>
+
+   
+    <div class="main-frame">
+ 
+        <div class="left-frame">
+            <ul>
+                <li><a href="cse.html">CSE</a></li>
+                <li><a href="ece.html">ECE</a></li>
+                <li><a href="eee.html">EEE</a></li>
+                <li><a href="civil.html">Civil</a></li>
+            </ul>
+        </div>
+
+   
+        <div class="right-frame">
+            <p>Welcome to your Bookstore. Please select a category or use the navigation above.</p>
+        </div>
+    </div>
+
+</body>
+</html>

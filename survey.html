@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>survey form</title>
+</head>
+<body>
+<h1>SURVEY FORM</h1>
+<br><br>
+<div id="form">
+<form id = "form">
+    <label for="name">NAME:</label>
+    <input type="text" name ="name" id = "name">
+    <br><br>
+    <label for="email">EMAIL:</label>
+    <input type="text" name = "email" id = "email">
+    <br><br>
+    <label for="age">AGE:</label>
+    <input type="number" name = "age" id = "age">
+    <br><br>
+    <label for="contact number">CONTACT NUMBER:</label>
+    <input type="number" name = "contact number"  id = "contact number">
+    <br><br>
+    <p> How satisfied were you with our services</p>
+    <ul type="disc">
+        <li>
+            <label for="Very Satisfied">Very Satisfied</label>
+            <input type="radio" name=" Satisfied" id="Very Satisfied">
+        </li>
+        <li><label for="Satisfied">Satisfied</label>
+            <input type="radio" name="Satisfied" id=" Satisfied">
+        </li>
+        <li><label for="Didn't care">Didn't care</label>
+            <input type="radio" name="Satisfied" id="Didn't care">
+        </li>
+        <li><label for="Dissatisfied">Dissatisfied</label>
+            <input type="radio" name="Satisfied" id="Dissatisfied">
+        </li>
+        <li><label for="Very Dissatisfied">Very Dissatisfied</label>
+            <input type="radio" name="satisfied" id="Very Dissatisfied">
+        </li><br />
+    </ul>
+    <label for="comment">COMMENT</label>
+    <br>
+    <textarea name="comment" id="comment" rows="10" cols="30"></textarea>
+    <input type="button" value="SUBMIT">
+</form>
+</div>
+</body>
+</html>
